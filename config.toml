@@ -1,0 +1,136 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "NetJagaimo's Blog"
+theme = "echo"
+DefaultContentLanguage = "cn"
+# 自動檢測是否包含中文/日文/韓文，該參數會影響摘要和字數統計功能，建議設置爲true
+hasCJKLanguage = true
+# 設置頁面生成形式，將默認的網站路徑/修改成.html
+uglyURLs = false
+googleAnalytics = "UA-123406774-1"      # UA-XXXXXXXX-X
+
+publishDir = "docs"
+
+## 評論系統
+changyanAppid = "" # Changyan app id             # 暢言
+changyanAppkey = "" # Changyan app key
+disqusShortname = "" # disqus account name
+livereUID = "" # LiveRe UID                  # 來必力
+
+[markup.highlight]
+codeFences = true # 高亮markdown的代碼塊
+guessSyntax = true # 高亮markdown中沒有標註語言的代碼塊
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 2
+
+# https://gohugo.io/content-management/urls/#aliases
+[permalinks]
+posts = "/:filename"
+
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "atom"
+
+[services.rss]
+limit = 20
+
+[author]
+name = "NetJagaimo"
+avatar = "/img/author.jpg"
+bio = "師大圖資所研究生"
+homepage = ""
+
+[params]
+favicon = "/img/favicon.ico"
+keywords = "netjagaimo, blog, python, javascript"
+description = "NetJagaimo's blog"
+toc = true
+navItems = [
+  ["首頁", "/"],
+  ["所有文章", "/posts"],
+  ["關於我", "/about"],
+  ["RSS", "/atom.xml"]
+]
+# rss 全文輸出
+rssFullContent = true
+uglyURLs = true
+busuanzi = false # 是否使用不蒜子統計站點訪問量
+staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
+postAds = ""
+profileAds = ''
+notFoundAds = ''
+
+# 開啓版權聲明，協議名字和鏈接都可以換
+[params.cc]
+name = "" #"署名-非商業性使用 4.0 國際 (CC BY-NC 4.0)"
+link = "" #"https://creativecommons.org/licenses/by-nc/4.0/deed.zh"
+
+# 文章打賞
+[params.reward]
+enable = false
+title = "打賞"
+wechat = "" # 微信二維碼
+alipay = "" # 支付寶二維碼
+
+############## 評論系統  start ##############
+[params.gitment] # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+owner = "" # Your GitHub ID
+repo = "" # The repo to store comments
+clientId = "" # Your client ID
+clientSecret = "" # Your client secret
+
+[params.utterances] # https://utteranc.es/
+owner = "" # Your GitHub ID
+repo = "" # The repo to store comments
+
+[params.gitalk] # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+owner = "" # Your GitHub ID
+repo = "" # The repo to store comments
+clientId = "" # Your client ID
+clientSecret = "" # Your client secret
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+enable = false
+appId = '你的appId'
+appKey = '你的appKey'
+notify = false # mail notifier , https://github.com/xCss/Valine/wiki
+verify = false # Verification code
+avatar = 'mm'
+placeholder = '說點什麼吧...'
+visitor = false
+
+############ 評論系統  end ##############
+## 社交鏈接
+[social]
+github = "netjagaimo"
+jsfiddle = ""
+codepen = ""
+dribbble = ""
+behance = ""
+flickr = ""
+instagram = ""
+youtube = ""
+vimeo = ""
+vine = ""
+medium = ""
+wordpress = ""
+tumblr = ""
+linkedin = ""
+slideshare = ""
+stackoverflow = ""
+reddit = ""
+pinterest = ""
+weibo = ""
+facebook = ""
+twitter = ""
+douban = ""
+rss = ""
