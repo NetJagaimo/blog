@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "http://netjagaimo.github.io"
 languageCode = "en-us"
 title = "NetJagaimo's Blog"
 theme = "echo"
@@ -8,8 +8,6 @@ hasCJKLanguage = true
 # 設置頁面生成形式，將默認的網站路徑/修改成.html
 uglyURLs = false
 googleAnalytics = "UA-123406774-1"      # UA-XXXXXXXX-X
-
-publishDir = "docs"
 
 ## 評論系統
 changyanAppid = "" # Changyan app id             # 暢言
