@@ -1,6 +1,6 @@
 [submodule "themes/echo"]
 	path = themes/echo
-	url = https://github.com/forecho/hugo-theme-echo.git
+	url = https://github.com/netjagaimo/hugo-theme-echo.git
 [submodule "public"]
 	path = public
 	url = https://github.com/netjagaimo/netjagaimo.github.io.git
