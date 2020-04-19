@@ -22,6 +22,7 @@ script:
   - hugo
 
 deploy:
+  strategy: git
   repo: netjagaimo/netjagaimo.github.io
   provider: pages # 重要，指定这是一份github pages的部署配置
   cleanup: true # 重要，不能省略
