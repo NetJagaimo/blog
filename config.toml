@@ -56,7 +56,7 @@ navItems = [
 ]
 # rss 全文輸出
 rssFullContent = true
-uglyURLs = true
+uglyURLs = false
 busuanzi = false # 是否使用不蒜子統計站點訪問量
 staticCDNPrefix = "https://cdn.bootcss.com/font-awesome/5.11.2"
 extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxx"></script>'
