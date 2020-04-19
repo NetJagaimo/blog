@@ -2,7 +2,7 @@
 title: "JavaScript OOP"
 date: "2019-10-23 12:20:00 +0800"
 categories: ["JavaScript"]
-tags: ["javascript"]
+tags: ["javascript", "OOP"]
 toc: true
 ---
 

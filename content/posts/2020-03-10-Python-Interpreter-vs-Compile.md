@@ -3,7 +3,7 @@ title: "Python編譯與直譯探討"
 date: 2020-03-10T10:40:44+08:00
 draft: false
 categories: ["Python"]
-tags: ["interpreter, python, compile"]
+tags: ["interpreter", "python", "compile"]
 toc: true
 ---
 
